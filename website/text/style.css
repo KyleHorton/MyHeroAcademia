@@ -65,6 +65,7 @@ margin: 50px;
     width: 100%;
     margin-bottom: 20px;
     margin-top: 10px;
+    padding: 0px;
     display: flex;
 }
 
@@ -76,7 +77,8 @@ margin: 50px;
 .col-3 {
   border: 2px solid #000;
   width: 33.33%;
-  padding: 10px
+  padding: 10px;
+
 }
 
 .head{
@@ -84,13 +86,43 @@ margin: 50px;
   margin-top: 10px;
 }
 
-.p{
-}
-
 /*
   assignment 4 additions end
 
 */
+
+/*
+  assignment 5 additions start
+
+*/
+
+.pic{
+  padding-left: 100px;
+  width: 50%;
+}
+
+.name{
+  text-align: center;
+  font-size: 50px;
+}
+
+.position{
+
+  text-align: center;
+  font-size: 20px;
+
+}
+
+.col-3a{
+    width: 33.33%;
+    padding: 10px;
+}
+
+/*
+  assignment 5 additions end
+
+*/
+
 
 .photos{
   max-width: 1200px;
