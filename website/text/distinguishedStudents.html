@@ -8,40 +8,41 @@ Content: A webpage for My Hero Academia that creates a student page.-->
 
 <head>
   <meta charset = "UTF-8">
-  <link rel = "stylesheet" type = "text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" >
+  <link rel="stylesheet" href="css/distinguishedStudents.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" >
   <title> Distinguished Students </title>
-
 </head>
+
 <body>
+  <div class="container-fluid">
+    <h1 class ="banner">Distinguished Students</h1>
+    <nav class="navbar navbar-expand-lg bg-primary navbar-light">
+      <ul class="navbar-nav">
+        <li class="nav-item"> <a class="nav-link" href="homePage.html">Home</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="aboutPage.html">About</a> </li>
+        <li class="nav-item active"> <a class="nav-link" href="distinguishedStudents.html">Distinguished Students</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="staffPage.html">Faculty and Staff</a> </li>
+      </ul>
+    </nav>
 
-  <h1 class ="banner">Distinguished Students</h1>
-  <nav class = "topnav">
-    <a href="homePage.html">Home </a>
-    <a href="aboutPage.html"> About </a>
-    <a href="distinguishedStudents.html"> Distinguished Students </a>
-    <a href="staffPage.html"> Faculty and Staff </a>
-    <a> Credits </a>
-  </nav>
-  <div class = "app">
-
-    <div class="photos">
-
-      <div class = "student1photo">
+    <div id="row1" class="row">
+      <div class="col-lg-4">
         <img src = "images/midoriya.jpg">
       </div>
 
-      <div class = "student2photo">
+      <div class="col-lg-4">
         <img class="photo2" src = "images/katsuki.jpg">
       </div>
 
-      <div class="student3photo">
+      <div class="col-lg-4">
         <img src = "images/ochaco.jpg">
       </div>
     </div>
 
-    <div class="bios">
-
-      <div class="student1bio">
+    <div class="row">
+      <div class="col-lg-4">
         <p>
           Izuku is a very timid, helpful, and polite boy,
           frequently overreacting to abnormal situations with exaggerated expressions. Due to being bullied since childhood for
@@ -52,7 +53,7 @@ Content: A webpage for My Hero Academia that creates a student page.-->
         </p>
       </div>
 
-      <div class="student2bio">
+      <div class="col-lg-4">
         <p>
           Katsuki is a young man of average height, with ash blond, spiky hair and sharp red eyes. At school, he wears the standard U.A. uniform
           save for the customary red tie. Underneath his blazer, he wears a white button-up shirt with the
@@ -61,7 +62,7 @@ Content: A webpage for My Hero Academia that creates a student page.-->
         </p>
       </div>
 
-      <div class="student3bio">
+      <div class="col-lg-4">
         <p>
           Ochaco is a young girl of short height and petite build, with fair skin that is prone to blushing,
           big round brown eyes, and shoulder-length brown hair which sports two long locks beside her face and a short bob at the back.
@@ -69,23 +70,17 @@ Content: A webpage for My Hero Academia that creates a student page.-->
           She has little pads on the prints of each of her fingers similar to the pads on an animal's paws, which are used to activate her Quirk.
         </p>
       </div>
-
     </div>
 
-
-
-
+    <div class="row">
+    <footer class="footerBanner">
+      <p> Developers: Kyle Horton and Mark Russo</p>
+      <p> Contact Information: <a href = "mailto:someone@example.com">Kyle.Horton@quinnpiac.edu</a><br>
+          <img class="footerimg" src = "images/UAFloater.png"></p>
+    </footer>
+    </div>
 
   </div>
-
-
-<div class="footer">
-<footer class="footerBanner">
-  <p> Developers: Kyle Horton and Mark Russo</p>
-  <p> Contact Information: <a href = "mailto:someone@example.com">Kyle.Horton@quinnpiac.edu</a><br>
-      <img class="footerimg" src = "images/UAFloater.png"></p>
-</footer>
-</div>
 
 </body>
 

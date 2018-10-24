@@ -7,59 +7,62 @@ Content: A webpage for My Hero Academia that creates a faculty and staff page.--
 <html>
 
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset = "UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" >
+  <link rel="stylesheet" href="css/staffPage.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" >
   <title> Faculty and Staff </title>
-
 </head>
 <body>
 
-  <h1 class="banner">Faculty and Staff</h1>
-  <nav class="topnav">
-    <a href="homePage.html">Home </a>
-    <a href="aboutPage.html"> About </a>
-    <a href="distinguishedStudents.html"> Distinguished Students </a>
-    <a href="staffPage.html"> Faculty and Staff </a>
-    <a> Credits </a>
-  </nav>
-  <div class="grid">
+  <div class="container-fluid">
+    <h1 class ="banner">Faculty and Staff</h1>
+    <nav class="navbar navbar-expand-lg bg-primary navbar-light">
+      <ul class="navbar-nav">
+        <li class="nav-item"> <a class="nav-link" href="homePage.html">Home</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="aboutPage.html">About</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="distinguishedStudents.html">Distinguished Students</a> </li>
+        <li class="nav-item active"> <a class="nav-link" href="staffPage.html">Faculty and Staff</a> </li>
+      </ul>
+    </nav>
 
-    <div class="row">
-
-      <div class="col-3">
+    <div id="row1" class="row">
+      <div class="col-lg-4">
         <img class="pic" src="images/Nezu.png">
         <h2 class="name">Nezu</h2>
         <h3 class="position">Principal</h3>
       </div>
 
-      <div class="col-3">
+      <div class="col-lg-4">
         <img class="pic" src="images/RecoveryGirl.jpg">
         <h2 class="name">Recovery Girl</h2>
         <h3 class="position">Nurse</h3>
+
       </div>
 
-      <div class="col-3">
+      <div class="col-lg-4">
         <img class="pic" src="images/Lunch-Rush.jpg">
         <h2 class="name">Lunch-Rush</h2>
         <h3 class="position">Chef</h3>
-      </div>
 
+      </div>
     </div>
 
     <div class="row">
-      <div class="col-3">
+      <div class="col-lg-4">
         <img class="pic" src="images/All-Might.jpg">
         <h2 class="name">All Might</h2>
         <h3 class="position">Heroics Teacher</h3>
       </div>
 
-      <div class="col-3">
+      <div class="col-lg-4">
         <img class="pic" src="images/EraserHead.jpg">
         <h2 class="name">Eraser Head</h2>
         <h3 class="position">Class 1-A Homeroom Teacher</h3>
       </div>
 
-      <div class="col-3">
+      <div class="col-lg-4">
         <img class="pic" src="images/PresentMic.jpg">
         <h2 class="name">Present Mic</h2>
         <h3 class="position">English Teacher</h3>
@@ -67,19 +70,19 @@ Content: A webpage for My Hero Academia that creates a faculty and staff page.--
     </div>
 
     <div class="row">
-      <div class="col-3">
+      <div class="col-lg-4">
         <img class="pic" src="images/Ectoplasm.jpg">
         <h2 class="name">Ectoplasm</h2>
         <h3 class="position">Mathematics Teacher</h3>
       </div>
 
-      <div class="col-3">
+      <div class="col-lg-4">
         <img class="pic" src="images/Cementoss.png">
         <h2 class="name">Cementoss</h2>
         <h3 class="position">Modern Literature Teacher</h3>
       </div>
 
-      <div class="col-3">
+      <div class="col-lg-4">
         <img class="pic" src="images/VladKing.jpg">
         <h2 class="name">Vlad King</h2>
         <h3 class="position">Class 1-A Homeroom Teacher</h3>
@@ -87,19 +90,19 @@ Content: A webpage for My Hero Academia that creates a faculty and staff page.--
     </div>
 
     <div class="row">
-      <div class="col-3">
+      <div class="col-lg-4">
         <img class="pic" src="images/No13.jpg">
         <h2 class="name">No. 13</h2>
         <h3 class="position">Pro-Hero</h3>
       </div>
 
-      <div class="col-3">
+      <div class="col-lg-4">
         <img class="pic" src="images/HoundDog.png">
         <h2 class="name">Hound Dog</h2>
         <h3 class="position">Guidance Counselor</h3>
       </div>
 
-      <div class="col-3">
+      <div class="col-lg-4">
         <img class="pic" src="images/PowerLoader.jpg">
         <h2 class="name">Power Loader</h2>
         <h3 class="position">Pro-Hero, Teacher</h3>
@@ -107,34 +110,28 @@ Content: A webpage for My Hero Academia that creates a faculty and staff page.--
     </div>
 
     <div class="row">
-      <div class="col-3">
+      <div class="col-lg-4">
         <img class="pic" src="images/Midnight.jpg">
         <h2 class="name">Midnight</h2>
         <h3 class="position">Modern Hero Art History Teacher</h3>
       </div>
 
-      <div class="col-3a">
+      <div class="col-lg-4">
       </div>
 
-      <div class="col-3a">
+      <div class="col-lg-4">
       </div>
-
     </div>
 
-
-
-
+    <div class="row">
+    <footer class="footerBanner">
+      <p> Developers: Kyle Horton and Mark Russo</p>
+      <p> Contact Information: <a href = "mailto:someone@example.com">Kyle.Horton@quinnpiac.edu</a><br>
+          <img class="footerimg" src = "images/UAFloater.png"></p>
+    </footer>
+    </div>
 
   </div>
-
-
-<div class="footer">
-<footer class="footerBanner">
-  <p> Developers: Kyle Horton and Mark Russo</p>
-  <p> Contact Information: <a href="mailto:someone@example.com">Kyle.Horton@quinnpiac.edu</a><br>
-      <img class="footerimg" src="images/UAFloater.png"></p>
-</footer>
-</div>
 
 </body>
 

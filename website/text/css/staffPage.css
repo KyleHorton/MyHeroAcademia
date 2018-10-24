@@ -1,0 +1,55 @@
+/* styling for the staffPage using CSS
+
+*/
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+.banner {
+  color:white;
+  background-color: blue;
+  font-size: 62px;
+  font-family: cursive;
+  margin: 10px auto;
+  padding: 50px;
+  text-align: center;
+}
+
+.row{
+  padding: 20px;
+  margin: auto;
+}
+
+.pic{
+    width: 60%;
+}
+
+.name{
+  margin: auto;
+  font-size: 40px;
+}
+
+.position{
+  margin: auto;
+  font-size: 15px;
+  padding-left: 5px;
+}
+
+.footerBanner{
+  width: 100%;
+  text-align: center;
+  background-color: grey;
+  color: white;
+  padding: 30px;
+}
+
+.footerimg{
+  float:center;
+  width: 50px;
+  height: 50px;
+}

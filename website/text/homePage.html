@@ -4,29 +4,31 @@
 Developers: Kyle Horton and Mark Russo
 Content: A webpage for My Hero Academia that creates a home page.-->
 
-<html>
+<html lang="en">
 
 <head>
   <meta charset = "UTF-8">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" >
+  <link rel="stylesheet" href="css/homePage.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" >
   <title> U.A. Home </title>
 </head>
-<h1 class ="banner">U.A. High School</h1>
-<nav class = "topnav">
-  <a href="homePage.html">Home </a>
-  <a href="aboutPage.html"> About </a>
-  <a href="distinguishedStudents.html"> Distinguished Students </a>
-  <a href="staffPage.html"> Faculty and Staff </a>
-  <a> Credits </a>
-</nav>
 
 <body>
-
-  <div class="container">
+  <div class="container-fluid">
+    <h1 class ="banner">U.A. High School</h1>
+    <nav class="navbar navbar-expand-lg bg-primary navbar-light">
+      <ul class="navbar-nav">
+        <li class="nav-item active"> <a class="nav-link" href="homePage.html">Home</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="aboutPage.html">About</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="distinguishedStudents.html">Distinguished Students</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="staffPage.html">Faculty and Staff</a> </li>
+      </ul>
+    </nav>
 
   <div class = "row">
           <img class="topImage" src="images/UAHome.png">
-
   </div>
 
   <div class="row">
@@ -56,15 +58,13 @@ Content: A webpage for My Hero Academia that creates a home page.-->
     </div>
 
   </div>
-</div>
-
-
-<div class="row">
-<footer class="footerBanner">
-  <p> Developers: Kyle Horton and Mark Russo</p>
-  <p> Contact Information: <a href = "mailto:someone@example.com">Kyle.Horton@quinnpiac.edu</a><br>
-      <img class="img-responsive" src = "images/UAFloater.png"></p>
-</footer>
+  <div class="row">
+  <footer class="footerBanner">
+    <p> Developers: Kyle Horton and Mark Russo</p>
+    <p> Contact Information: <a href = "mailto:someone@example.com">Kyle.Horton@quinnpiac.edu</a><br>
+        <img class="footerimg" src = "images/UAFloater.png"></p>
+  </footer>
+  </div>
 </div>
 
 </body>

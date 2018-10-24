@@ -1,0 +1,36 @@
+/* styling for the distinguishedStudents page using CSS
+*/
+
+.banner {
+  color:white;
+  background-color: blue;
+  font-size: 62px;
+  font-family: cursive;
+  margin: 10px auto;
+  padding: 50px;
+  text-align: center;
+}
+
+#row1{
+  padding-top: 10px;
+  margin: auto;
+}
+
+.photo2{
+  width: 210px;
+  height: 244px;
+}
+
+.footerBanner{
+  width: 100%;
+  text-align: center;
+  background-color: grey;
+  color: white;
+  padding: 30px;
+}
+
+.footerimg{
+  float:center;
+  width: 50px;
+  height: 50px;
+}
