@@ -1,0 +1,4 @@
+Practice 6 Updates:
+
+All website pages have been updated to follow Bootstrap layout design.  Additionally, each html page has its own css sheet associated with it. You can find each css
+document in the folder "css". 

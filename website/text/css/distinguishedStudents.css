@@ -1,6 +1,13 @@
 /* styling for the distinguishedStudents page using CSS
 */
 
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 .banner {
   color:white;
   background-color: blue;
@@ -13,6 +20,11 @@
 
 #row1{
   padding-top: 10px;
+  margin: auto;
+}
+
+.row{
+  padding: 10px;
   margin: auto;
 }
 

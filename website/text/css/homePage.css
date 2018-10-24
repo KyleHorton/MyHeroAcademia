@@ -2,6 +2,13 @@
 
 */
 
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 .banner {
   color:white;
   background-color: blue;
@@ -10,6 +17,16 @@
   margin: 10px auto;
   padding: 50px;
   text-align: center;
+}
+
+#row2{
+  margin: auto;
+  border: 2px solid #000;
+}
+
+.row{
+  padding: 20px;
+  margin: auto;
 }
 
 .topImage{
