@@ -123,6 +123,25 @@ margin: 50px;
 
 */
 
+/*
+  assignment 6 additions start
+
+*/
+
+.topImage{
+  width: 200px;
+  height: 30px;
+}
+
+.img3{
+  width: 20px;
+}
+
+/*
+  assignment 6 additions end
+
+*/
+
 
 .photos{
   max-width: 1200px;
@@ -191,6 +210,6 @@ margin: 50px;
 
 .footerimg{
   float:center;
-  width: 55px;
-  height: 42px;
+  width: 20px;
+  height: 22px;
 }
