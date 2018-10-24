@@ -2,3 +2,31 @@ Practice 6 Updates:
 
 All website pages have been updated to follow Bootstrap layout design.  Additionally, each html page has its own css sheet associated with it. You can find each css
 document in the folder "css". 
+
+Design Guidelines:
+
+Our new website now follows guidelines listed below.
+
+1. Predictable
+	- Our website is predictable because each page has a clear and specific header that describes the page.  This way the user knows what the page 
+	they are on is all about without having to read the whole page. The site is also predictable because the navigation bar labels are consistent with each
+	page's header.  This means the user can predict where clicking on one of the navigation bar labels will bring them and what that page will be about.
+
+
+2. Consistent
+	- Our website is consistent because each page has the same design and layout.  The size and colors of the headers, footers, and navigation bars are 
+	all the same. This gives the user an easy time reading the pages, since every page follows the same format. Elements are reused throughout each page
+	to create this consistency.
+
+3. Constrained
+	- Our website is extremely simple, making it very hard for the usuer to make any mistakes. There is a Credits page that is still in waiting to be created
+	but it is left off of the navigation bar so that a user does not try to access it.
+
+4. Feedback
+	- The main feedback our website provides is through the navigation bar.  The navigation bar label is "active" whenever the user is on that page.  This
+	provides feedback to the user about what page they are on so they do not get lost. In addition, the email in the footer is responsive and the "Click Here"
+	hyperlink on changes color and becomes a different color when the user puts their mouse over it, making it clear that it is a hyperlink.
+
+5. Apple's Guidelines
+	- Lastly, our website follows Apple's guidelines by remaining aesthetic integrity.  Each page has a header that gives the user a clear and unified message
+	about what that page's purpose is. In addition, there is direct manipulation since links change colors with a hover and click.
