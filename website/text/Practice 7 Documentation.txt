@@ -1,0 +1,9 @@
+Implemented Pattern:
+
+The Carousel pattern was implemented on the website's "Home" page.  It was implemented 
+at the top of the page and rotates between four different images.
+
+Form:
+
+The form was implemented on the "Contact Us" page.
+

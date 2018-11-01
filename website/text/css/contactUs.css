@@ -1,0 +1,57 @@
+/* styling for the aboutPage using CSS
+*/
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.banner {
+  color:white;
+  background-color: blue;
+  font-size: 62px;
+  font-family: cursive;
+  margin: 10px auto;
+  padding: 50px;
+  text-align: center;
+}
+.contactHeader{
+  font-size: 40px;
+  margin: auto;
+}
+
+
+#rowLarge{
+  height: 40px;
+}
+
+#choices{
+  align-items: center;
+  margin-left: 100px;
+}
+
+.row{
+  padding: 10px;
+  margin: auto;
+}
+
+.panel-group{
+  margin: auto;
+  width: 70%;
+}
+
+.footerBanner{
+  width: 100%;
+  text-align: center;
+  background-color: grey;
+  color: white;
+  padding: 30px;
+}
+
+.footerimg{
+  float:center;
+  width: 50px;
+  height: 50px;
+}
