@@ -1,0 +1,24 @@
+#brand{
+  width: 100%;
+  height: 100%;
+}
+.navbar-header{
+  width: 15%;
+}
+
+#icons{
+  width: 50%;
+  margin: auto;
+}
+
+#footerP{
+  font-size: 16px;
+}
+
+#history{
+  margin-left: 0%;
+}
+
+#toggle{
+  color: black;
+}

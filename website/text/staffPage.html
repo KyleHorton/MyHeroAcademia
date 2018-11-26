@@ -11,7 +11,9 @@ Content: A webpage for My Hero Academia that creates a faculty and staff page.--
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge" >
   <link rel="stylesheet" href="css/staffPage.css">
+  <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title> Faculty and Staff </title>
 </head>
 <body>
@@ -19,11 +21,14 @@ Content: A webpage for My Hero Academia that creates a faculty and staff page.--
   <div class="container-fluid">
     <h1 class ="banner">Faculty and Staff</h1>
     <nav class="navbar navbar-expand-lg bg-primary navbar-light">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#"> <img src="images/UABrand.png" id="brand"> </a>
+      </div>
       <ul class="navbar-nav">
-        <li class="nav-item"> <a class="nav-link" href="homePage.html">Home</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="index.html">Home</a> </li>
         <li class="nav-item"> <a class="nav-link" href="aboutPage.html">About</a> </li>
         <li class="nav-item"> <a class="nav-link" href="distinguishedStudents.html">Distinguished Students</a> </li>
-        <li class="nav-item active"> <a class="nav-link" href="staffPage.html">Faculty and Staff</a> </li>
+        <li class="nav-item active" id="active"> <a class="nav-link" href="staffPage.html">Faculty and Staff</a> </li>
         <li class="nav-item"> <a class="nav-link" href="contactUs.html">Contact Us</a> </li>
       </ul>
     </nav>
@@ -126,9 +131,30 @@ Content: A webpage for My Hero Academia that creates a faculty and staff page.--
 
     <div class="row">
     <footer class="footerBanner">
-      <p> Developers: Kyle Horton and Mark Russo</p>
-      <p> Contact Information: <a href = "mailto:someone@example.com">Kyle.Horton@quinnpiac.edu</a><br>
-          <img class="footerimg" src = "images/UAFloater.png"></p>
+      <div class="row" >
+        <div class="col-sm-3">
+          <p> Developers: Kyle Horton and Mark Russo</p>
+          <p> Contact Information: <a href = "mailto:someone@example.com">Kyle.Horton@quinnpiac.edu</a> </p>
+          <img class="footerimg" src = "images/UAFloater.png">
+
+        </div>
+        <div class="col-sm-3">
+          <p id="footerP"> Call us at 203-669-2469! </p>
+          <i class="fa fa-phone-square fa-4x" id="iconSize"></i>
+
+        </div>
+        <div class="col-sm-3">
+          <p id="footerP"> Checkout our facebook at Facebook.com/UAHighSchool! </p>
+          <i class="fa fa-facebook-square fa-4x" id="iconSize"></i>
+
+        </div>
+        <div class="col-sm-3">
+          <p id="footerP"> Stop by! We are located in Musutafu, Japan! </p>
+          <i class="fa fa-location-arrow fa-4x" id="iconSize"></i>
+
+        </div>
+
+      </div>
     </footer>
     </div>
 

@@ -12,6 +12,7 @@ Content: A webpage for My Hero Academia that allows users to contact us.-->
   <link rel="stylesheet" href="css/contactUs.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" >
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
@@ -22,12 +23,15 @@ Content: A webpage for My Hero Academia that allows users to contact us.-->
   <div class="container-fluid">
     <h1 class ="banner">Contact Us</h1>
     <nav class="navbar navbar-expand-lg bg-primary navbar-light">
-      <ul class="navbar-nav">
-        <li class="nav-item"> <a class="nav-link" href="homePage.html">Home</a> </li>
+      <div class="navbar-header">
+        <a > <img src="images/UABrand.png" id="brand"> </a>
+      </div>
+      <ul class="navbar-nav" id="nav">
+        <li class="nav-item"> <a class="nav-link" href="index.html">Home</a> </li>
         <li class="nav-item"> <a class="nav-link" href="aboutPage.html">About</a> </li>
         <li class="nav-item"> <a class="nav-link" href="distinguishedStudents.html">Distinguished Students</a> </li>
         <li class="nav-item"> <a class="nav-link" href="staffPage.html">Faculty and Staff</a> </li>
-        <li class="nav-item active"> <a class="nav-link" href="staffPage.html">Contact Us</a> </li>
+        <li class="nav-item active" id="active"> <a class="nav-link" href="#" >Contact Us</a> </li>
       </ul>
     </nav>
 
@@ -100,13 +104,33 @@ Content: A webpage for My Hero Academia that allows users to contact us.-->
           </div>
         </div>
     </div>
-      <div class="row">
-      <footer class="footerBanner">
-        <p> Developers: Kyle Horton and Mark Russo</p>
-        <p> Contact Information: <a href = "mailto:someone@example.com">Kyle.Horton@quinnpiac.edu</a><br>
-            <img class="footerimg" src = "images/UAFloater.png"></p>
-      </footer>
+    <div class="row">
+    <footer class="footerBanner">
+      <div class="row" >
+        <div class="col-sm-3">
+          <p> Developers: Kyle Horton and Mark Russo</p>
+          <p> Contact Information: <a href = "mailto:someone@example.com">Kyle.Horton@quinnpiac.edu</a> </p>
+          <img class="footerimg" src = "images/UAFloater.png">
+
+        </div>
+        <div class="col-sm-3">
+          <p id="footerP"> Call us at 203-669-2469! </p>
+          <i class="fa fa-phone-square fa-4x" id="iconSize"></i>
+
+        </div>
+        <div class="col-sm-3">
+          <p id="footerP"> Checkout our facebook at Facebook.com/UAHighSchool! </p>
+          <i class="fa fa-facebook-square fa-4x" id="iconSize"></i>
+
+        </div>
+        <div class="col-sm-3">
+          <p id="footerP"> Stop by! We are located in Musutafu, Japan! </p>
+          <i class="fa fa-location-arrow fa-4x" id="iconSize"></i>
+
+        </div>
+
       </div>
+    </footer>
     </div>
 
   </body>

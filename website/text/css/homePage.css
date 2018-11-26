@@ -19,9 +19,22 @@
   text-align: center;
 }
 
+#apply{
+  height: 20%;
+  width: 20%;
+}
+
+.carousel-caption{
+margin: auto;
+}
+
 #row2{
   margin: auto;
   border: 2px solid #000;
+}
+#active{
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .row{
@@ -46,11 +59,10 @@
   text-align: center;
   background-color: grey;
   color: white;
-  padding: 30px;
+  padding: 0px;
 }
 
 .footerimg{
-  float:center;
-  width: 50px;
-  height: 50px;
+  width: 40%;
+  height: 40%;
 }

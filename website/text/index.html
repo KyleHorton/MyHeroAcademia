@@ -11,7 +11,9 @@ Content: A webpage for My Hero Academia that creates a home page.-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge" >
   <link rel="stylesheet" href="css/homePage.css">
+  <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
@@ -22,9 +24,13 @@ Content: A webpage for My Hero Academia that creates a home page.-->
 <body>
   <div class="container-fluid">
     <h1 class ="banner">U.A. High School</h1>
+
     <nav class="navbar navbar-expand-lg bg-primary navbar-light">
+      <div class="navbar-header">
+        <a class="navbar-brand"> <img src="images/UABrand.png" id="brand"> </a>
+      </div>
       <ul class="navbar-nav">
-        <li class="nav-item active"> <a class="nav-link" href="homePage.html">Home</a> </li>
+        <li class="nav-item active" id="active"> <a class="nav-link" href="#">Home</a> </li>
         <li class="nav-item"> <a class="nav-link" href="aboutPage.html">About</a> </li>
         <li class="nav-item"> <a class="nav-link" href="distinguishedStudents.html">Distinguished Students</a> </li>
         <li class="nav-item"> <a class="nav-link" href="staffPage.html">Faculty and Staff</a> </li>
@@ -47,6 +53,10 @@ Content: A webpage for My Hero Academia that creates a home page.-->
         <div class="carousel-inner" role="listbox">
           <div class="carousel-item active">
             <img class ="topImage" src="images/UAHome2.png" alt="UA Home">
+            <div class="carousel-caption">
+              <button id="apply" class="btn btn-primary"> Apply now!</button>
+
+            </div>
           </div>
 
           <div class="carousel-item">
@@ -100,11 +110,53 @@ Content: A webpage for My Hero Academia that creates a home page.-->
     </div>
 
   </div>
+
+  <div class="container" id="history">
+    <div class="row">
+      <h4> <a href="#hidden" data-toggle="collapse" id="toggle"> Care to learn about our school's history?</a>
+      </h4>
+
+      <div id="hidden" class="collapse">
+        <p>
+          U.A. is the #1 ranked high school for heroics and is considered as the top Hero Academy in the world. It has also taught the #1 global hero, All Might.
+          Students are separated into specific Departments and Classes - A, B, C, D, E, F, G, H, I, J and K. At the entrance, there is a security wall
+          nicknamed the "U.A. Barrier" that automatically closes if a person does not have a Student ID Card or Special Entry Permission ID. Many precautions have been made
+          to keep members of the press and villains out.
+
+        </p>
+
+      </div>
+
+    </div>
+
+
+  </div>
   <div class="row">
   <footer class="footerBanner">
-    <p> Developers: Kyle Horton and Mark Russo</p>
-    <p> Contact Information: <a href = "mailto:someone@example.com">Kyle.Horton@quinnpiac.edu</a><br>
-        <img class="footerimg" src = "images/UAFloater.png"></p>
+    <div class="row" >
+      <div class="col-sm-3">
+        <p> Developers: Kyle Horton and Mark Russo</p>
+        <p> Contact Information: <a href = "mailto:someone@example.com">Kyle.Horton@quinnpiac.edu</a> </p>
+        <img class="footerimg" src = "images/UAFloater.png">
+
+      </div>
+      <div class="col-sm-3">
+        <p id="footerP"> Call us at 203-669-2469! </p>
+        <i class="fa fa-phone-square fa-4x" id="iconSize"></i>
+
+      </div>
+      <div class="col-sm-3">
+        <p id="footerP"> Checkout our facebook at Facebook.com/UAHighSchool! </p>
+        <i class="fa fa-facebook-square fa-4x" id="iconSize"></i>
+
+      </div>
+      <div class="col-sm-3">
+        <p id="footerP"> Stop by! We are located in Musutafu, Japan! </p>
+        <i class="fa fa-location-arrow fa-4x" id="iconSize"></i>
+
+      </div>
+
+    </div>
   </footer>
   </div>
 </div>
